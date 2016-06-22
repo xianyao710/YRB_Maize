@@ -11,5 +11,11 @@ I won't dicuss the details of implementation here which is described in my [log 
 
 The results using original homer,tomtom parameters are weird because in theory we should expect motifs that were observed in each of the 9 training groups. These motifs should be clustered regardless of their postion in training group. At first, we suspected that it might be the parameters that affect clustering result, so we filtered homer result with e-value< 1e-20 and used tomtom threshold e-value = 0.01,0.001,0.001(false discovery rate).
 
+![tomtom -thresh 0.01][figure]
+[figure]:https://github.com/xianyao710/YRB_Maize/blob/master/figures/tomtom_0.01.png
 
+![tomtom -thresh 0.001][figure]
+[figure]:https://github.com/xianyao710/YRB_Maize/blob/master/figures/tomtom_0.001.png
 
+![tomtom -thresh 0.0001][figure]
+[figure]:https://github.com/xianyao710/YRB_Maize/blob/master/figures/tomtom_0.0001.png
