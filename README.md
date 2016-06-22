@@ -19,3 +19,5 @@ The results using original homer,tomtom parameters are weird because in theory w
 
 ![tomtom -thresh 0.0001][figure]
 [figure]:https://github.com/xianyao710/YRB_Maize/blob/master/figures/tomtom_0.0001.png
+
+No matter what parameters we used, the pipeline which proved to work find in our previous work doesn't produce convincing motif clusters. Then we suspected that the size of tags we used for homer motif identification maybe not precise. So we check the tag file and find the postion where both root_1 and root_2 have 1 or more than 1 tag here.[root_1 root_2 consensus tag position]()
