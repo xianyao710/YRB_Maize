@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRR2078292.fastq
+PASS	Per base sequence quality	SRR2078292.fastq
+PASS	Per sequence quality scores	SRR2078292.fastq
+FAIL	Per base sequence content	SRR2078292.fastq
+FAIL	Per sequence GC content	SRR2078292.fastq
+PASS	Per base N content	SRR2078292.fastq
+WARN	Sequence Length Distribution	SRR2078292.fastq
+FAIL	Sequence Duplication Levels	SRR2078292.fastq
+FAIL	Overrepresented sequences	SRR2078292.fastq
+PASS	Adapter Content	SRR2078292.fastq
+FAIL	Kmer Content	SRR2078292.fastq

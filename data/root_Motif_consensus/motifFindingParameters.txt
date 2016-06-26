@@ -1,0 +1,1 @@
+cmd = CAGE_tag_final.txt /N/u/xianyao/Mason/Maize/data/genome/Zea_mays.AGPv3.31.dna_rm.genome.fa root_Motif -len 6,8,10,12 -size -60,40

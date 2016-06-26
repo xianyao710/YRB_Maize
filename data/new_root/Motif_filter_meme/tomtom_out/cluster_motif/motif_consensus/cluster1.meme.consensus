@@ -1,0 +1,14 @@
+Now running MotifSetReduce.pl with arguments -m cluster1.meme -l 5 -t 0.09 -c 0.5 ...
+
+
+
+Consensus motifs at merging threshold 0.09:
+
+DE	motif_train1_13mmmmmmmmmmmmmmmmmmmmmmmmm (6 positions) IC=  8.937
+0.014	0.945	0.027	0.013	C	1.613
+0.916	0.012	0.044	0.028	A	1.464
+0.005	0.007	0.981	0.007	G	1.832
+0.065	0.908	0.022	0.004	C	1.461
+0.948	0.012	0.018	0.022	A	1.624
+0.036	0.014	0.737	0.214	G	0.943
+XX
