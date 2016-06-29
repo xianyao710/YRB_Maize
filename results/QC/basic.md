@@ -1,61 +1,19 @@
 #This file describes the trimmning process on CAGE reads retrieved from Bo73 and Mo17 shoots and roots tissues.
-read_id			read_counts
-SRR2078285.fastq	11111236
-SRR2078286.fastq	7062416
-SRR2078287.fastq	7226801
-SRR2078288.fastq	5663024
-SRR2078289.fastq	9871904
-SRR2078290.fastq	16304719
-SRR2078291.fastq	13697357
-SRR2078292.fastq	11925108
+
+##raw data statistics
+
+|sample_id   | read_id 			 | read_counts | barcode |barcode_positive read counts |
+|------------|:----------------:|------------:|---------|--------------|
+|Bo73 shoot1 |SRR2078285.fastq  |	11,111,236 |GAT|11099583|
+|Bo73 shoot2 |SRR2078286.fastq  |	7,062,416 |ACA|7029136|
+|Bo73 root1	 |SRR2078287.fastq |	7,226,801|ACT|7176445|
+|Bo73 root2	 |SRR2078288.fastq|	5,663,024|ACG|5647880|
+|Mo17 shoot1  |SRR2078289.fastq|	9,871,904|AGA|9623951|
+|Mo17 shoot2|SRR2078290.fastq|	16,304,719|ATC|16289884|
+|Mo17 shoot3|SRR2078291.fastq|	13,697,357|ATG|13688021|
+|Mo17 shoot4|SRR2078292.fastq|	11,925,108|CTT||11914352|
 
 
-##split trimmed file depending on barcode
-###Group1
-Barcode Count   Location
-BC2     7029136 ./BC2
-unmatched       33280   ./unmatched
-total   7062416 
 
-###Group2
-Barcode	Count	Location
-BC2	7029136	./BC2
-unmatched	33280	./unmatched
-total	7062416 
 
-###Group3
-Barcode	Count	Location
-BC3	7176445	./BC3
-unmatched	50356	./unmatched
-total	7226801
-
-###Group4
-Barcode	Count	Location
-BC4	5647880	./BC4
-unmatched	15144	./unmatched
-total	5663024
-
-###Group5
-Barcode	Count	Location
-BC5	76892	./BC5
-unmatched	9795012	./unmatched
-total	9871904
-
-###Group6
-Barcode	Count	Location
-BC6	16289884	./BC6
-unmatched	14835	./unmatched
-total	16304719
-
-###Group7
-Barcode	Count	Location
-BC7	1712	./BC7
-unmatched	13695645	./unmatched
-total	13697357
-
-###Group8
-Barcode	Count	Location
-BC8	11914352	./BC8
-unmatched	10756	./unmatched
-total	11925108
 
