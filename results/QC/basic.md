@@ -4,10 +4,10 @@
 
 |sample_id   | read_id 			 | read_counts | barcode |read_counts after trimming|read_counts after cut|
 |------------|:----------------:|------------:|---------|-----------|---------|
-|Bo73 shoot1 |SRR2078285.fastq  |	11,111,236 |GAT|10696868|10180236|
-|Bo73 shoot2 |SRR2078286.fastq  |	7,062,416 |ACA|6749262|5566704|
-|Bo73 root1	 |SRR2078287.fastq |	7,226,801|ACT|6933951|5988163|
-|Bo73 root2	 |SRR2078288.fastq|	5,663,024|ACG|5444756|4645246|
+|B73 shoot1 |SRR2078285.fastq  |	11,111,236 |GAT|10696868|10180236|
+|B73 shoot2 |SRR2078286.fastq  |	7,062,416 |ACA|6749262|5566704|
+|B73 root1	 |SRR2078287.fastq |	7,226,801|ACT|6933951|5988163|
+|B73 root2	 |SRR2078288.fastq|	5,663,024|ACG|5444756|4645246|
 |Mo17 shoot1  |SRR2078289.fastq|	9,871,904|AGA|9171255|7316461|
 |Mo17 shoot2|SRR2078290.fastq|	16,304,719|ATC|15609514|11927809|
 |Mo17 shoot3|SRR2078291.fastq|	13,697,357|ATG|7395652|6099676|
@@ -24,7 +24,22 @@ cutadapt -g <9bp>  -m 25 -o .fastq --untrimmed-output .untrim
 
 After this trimming process, around 27 bp reads should be produced. 
 
+##bwa alignment with Z.mays Reference genome  AGPv3.31
+```
+samtools flagstat <seq_id>.bam
+```
+|sample_id|mapped percentage|
+|-----------|----------|
+|B73 shoot1 |67.60%	    |
+|B73 shoot2 |67.50%    |
+|B73 root1  |62.53%    |
+|B73 root2  |62.04%    |
+|Mo17 shoot1|49.01%    |
+|Mo17 shoot2|69.94%    | 
+|Mo17 root1 |58.98%    |
+|Mo17 root2 |51.38%    |
 
+##filtering out rRNA contamination
 
 
 
