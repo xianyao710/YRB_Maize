@@ -1,7 +1,12 @@
-0.063   0.828   0.024   0.085   C       1.092
-0.183   0.648   0.083   0.086   C       0.543
-0.094   0.040   0.835   0.031   G       1.120
-0.009   0.932   0.019   0.041   C       1.548
-0.525   0.294   0.065   0.116   M       0.377
-0.081   0.053   0.813   0.053   G       1.014
-0.028   0.844   0.040   0.088   C       1.155
+cluster1      148	NA
+cluster10     9		TA
+cluster11     13	GC
+cluster2      40	TA
+cluster3      26	NA
+cluster4      36	TA
+cluster5      15	NA
+cluster6      20	NA
+cluster7      21	NA
+cluster8      27	NA
+cluster9      18	NA
+total	      373

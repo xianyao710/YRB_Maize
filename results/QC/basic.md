@@ -2,17 +2,17 @@
 
 ##raw data and processed data statistics
 
-|sample_id   | read_id 			 | read_counts | barcode |read_counts after trimming|read_counts after cut|
-|------------|:----------------:|------------:|---------|-----------|---------|
-|B73 shoot1 |SRR2078285.fastq  |	11,111,236 |GAT|10696868|10180236|
-|B73 shoot2 |SRR2078286.fastq  |	7,062,416 |ACA|6749262|5566704|
-|B73 root1	 |SRR2078287.fastq |	7,226,801|ACT|6933951|5988163|
-|B73 root2	 |SRR2078288.fastq|	5,663,024|ACG|5444756|4645246|
-|Mo17 shoot1  |SRR2078289.fastq|	9,871,904|AGA|9171255|7316461|
-|Mo17 shoot2|SRR2078290.fastq|	16,304,719|ATC|15609514|11927809|
-|Mo17 shoot3|SRR2078291.fastq|	13,697,357|ATG|7395652|6099676|
-|Mo17 shoot4|SRR2078292.fastq|	11,925,108|CTT|11446751|9733753|
-|In total||82,862,565|88.64%|73,448,009|61458048|
+|sample_id   | read_id 			 | read_counts |barcode|read_count after trim|
+|------------|:----------------:|------------:|---------|
+|B73 shoot1 |SRR2078285.fastq  |	11,111,236 |GAT|5168085|
+|B73 shoot2 |SRR2078286.fastq  |	7,062,416 |ACA|3736846|
+|B73 root1	 |SRR2078287.fastq |	7,226,801|ACT|2478794|
+|B73 root2	 |SRR2078288.fastq|	5,663,024|ACG|1923501|
+|Mo17 shoot1  |SRR2078289.fastq|	9,871,904|AGA|3786304|
+|Mo17 shoot2|SRR2078290.fastq|	16,304,719|ATC|11182894|
+|Mo17 shoot3|SRR2078291.fastq|	13,697,357|ATG|3810340|
+|Mo17 shoot4|SRR2078292.fastq|	11,925,108|CTT|4972563|
+|In total||82,862,565|44.72%|37059327|
 
 ## Trimming procedure
 1)remove 3'-linker TCGTATGCCGTCTT which lies on 37-50 bp region
@@ -30,14 +30,14 @@ samtools flagstat <seq_id>.bam
 ```
 |sample_id|mapped percentage|
 |-----------|----------|
-|B73 shoot1 |67.60%	    |
-|B73 shoot2 |67.50%    |
-|B73 root1  |62.53%    |
+|B73 shoot1 |76.18%	    |
+|B73 shoot2 |74.15%    |
+|B73 root1  |74.34%    |
 |B73 root2  |62.04%    |
 |Mo17 shoot1|49.01%    |
 |Mo17 shoot2|69.94%    | 
 |Mo17 root1 |58.98%    |
-|Mo17 root2 |51.38%    |
+|Mo17 root2 |71.32%    |
 
 ##filtering out rRNA contamination
 

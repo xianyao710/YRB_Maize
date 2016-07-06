@@ -1,0 +1,13 @@
+cluster1      40	TA
+cluster10     25	NA
+cluster11     9		NA
+cluster12     9		TA
+cluster2      38	NA
+cluster3      72	NA
+cluster4      14	NA
+cluster5      77	NA
+cluster6      26	NA
+cluster7      15	GC
+cluster8      19	NA
+cluster9      24	NA
+total	      368		
